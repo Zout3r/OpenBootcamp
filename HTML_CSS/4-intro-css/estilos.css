@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+}
+/* Prueba de comentario */
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    color: darkmagenta;
+}
+
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
