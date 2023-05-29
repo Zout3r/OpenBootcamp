@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/pure/greeting.jsx';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <Greeting name="Jose"></Greeting>
+        {/* Componente de ejemplo funcional */}
+          {/*<Greeting name="Jose"></Greeting>*/}
+          {/* Componente de listado de tareas */}
+          <TaskListComponent></TaskListComponent>
         </p>
       </header>
     </div>
